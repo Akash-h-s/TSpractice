@@ -175,3 +175,9 @@ interface A2{
  type s3={num:s1,str:s2}
  let pr:s3={num:20,str:"akash ur genius"}
  console.log(pr.str)
+
+ type point={x:number,y:number}
+ const yxcv:point=({x:10,y:20})
+ type P=keyof point
+ 
+ console.log()
